@@ -1,11 +1,13 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
-/*
-*main - prints a random number, displays the last digit and indicates
-*if it is greater or less than 5 or if it is 0.
-*/
+#include <stdio.h>
+/* betty style doc for function main goes there */
+/**
+ * main - Displays the last digit and indicates if it is greater or less than 5 or if it is 0.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 int n;
