@@ -3,7 +3,7 @@
 #include <time.h>
 /* more headers goes there */
 
-/*This program will assign a random number to the variable n each time it is executed. Complete the source code in order to print the last digit of the number stored in the variable n. */
+/*prints a random number, displays the last digit and indicates if it is greater or less than 5 or if it is 0. */
 int main(void)
 {
 int n;
