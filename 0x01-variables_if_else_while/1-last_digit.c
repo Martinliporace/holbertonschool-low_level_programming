@@ -4,7 +4,7 @@
 #include <stdio.h>
 /* betty style doc for function main goes there */
 /**
- * main - Displays the last digit and indicates if it is greater or less than 5 or if it is 0.
+ * main - Displays the last digit and indicates if it is >, < or =0.
  *
  * Return: Always 0 (Success)
  */
