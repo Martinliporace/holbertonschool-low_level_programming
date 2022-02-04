@@ -3,7 +3,8 @@
 #include <time.h>
 /* more headers goes there */
 
-/*prints a random number, displays the last digit and indicates if it is greater or less than 5 or if it is 0. */
+/*prints a random number, displays the last digit and indicates
+if it is greater or less than 5 or if it is 0. */
 int main(void)
 {
 int n;
