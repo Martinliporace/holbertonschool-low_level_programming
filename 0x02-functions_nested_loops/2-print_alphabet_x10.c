@@ -2,7 +2,7 @@
 #include "1-alphabet.c"
 
 /**
-* void print_alphabet_x10(void) - Prints the alphabet in lowercase 10 times
+* print_alphabet_x10 - Prints the alphabet in lowercase 10 times
 * Return: Always 0.
 *
 */
