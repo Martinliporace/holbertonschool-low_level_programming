@@ -17,5 +17,5 @@ _putchar(letra);
 
 _putchar('\n');
 
-return (0);
+
 }
