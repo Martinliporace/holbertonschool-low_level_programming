@@ -9,9 +9,10 @@
 **/
 void jack_bauer(void)
 {
-
 int h1, h2, m1, m2, max;
+
 for (h1 = 0; h1 <= 2; h1++)
+{
 if (h1 == 2)
 max = 3;
 else
@@ -26,5 +27,6 @@ _putchar(':');
 _putchar('0' + m1);
 _putchar('0' + m2);
 _putchar('\n');
+}
 }
 }
