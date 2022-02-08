@@ -1,7 +1,7 @@
 #include "main.h"
 /**
-* times_table - prints the 9 times table, starting with 0.* @ld: last digit of the number
-* 
+* times_table - prints the 9 times table, starting with 0
+*
 * a - number 1, b - number 2, r - result
 *
 * Return: times table
