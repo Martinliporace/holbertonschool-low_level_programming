@@ -30,5 +30,5 @@ printf("%d", n);
 printf(" ");
 }
 return (0);
-printf("\n"); 
+printf("\n");
 }
