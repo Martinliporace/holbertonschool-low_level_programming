@@ -2,7 +2,6 @@
 
 /**
 * _isdigit - checks for a digit 
-*
 * @c: number input
 *
 * Return: Always 0 (Success)
