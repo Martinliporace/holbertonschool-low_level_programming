@@ -29,9 +29,9 @@ else
 {
 printf("%d", n);
 }
-if (n == 100)
-continue;
 printf(" ");
+if (n == 100)
+printf("Buzz ");
 }
 return (0);
 printf("\n");
