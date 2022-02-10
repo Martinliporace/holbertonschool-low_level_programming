@@ -2,7 +2,7 @@
 /**
 * print_triangle - a function that prints a triangle
 * @size: number
-* Return: triangle 
+* Return: triangle
 */
 
 void print_triangle(int size)
