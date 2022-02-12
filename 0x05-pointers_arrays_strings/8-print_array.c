@@ -6,10 +6,10 @@
 * @n : is the number of elements of the array
 * int count = 0, i;
 * @n : number of elements of the array
-* @a : element 
+* @a : element
 * Return: coso
 */
- 
+
 void print_array(int *a, int n)
 
 {
