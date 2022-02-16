@@ -3,6 +3,7 @@
 /**
 * print_number - Prints an integer.
 * @n: number
+* Description: coso
 */
 void print_number(int n)
 
