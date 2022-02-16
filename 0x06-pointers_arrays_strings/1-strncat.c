@@ -22,8 +22,6 @@ ini++;
 cont++;
 }
 if (src[ini] < n)
-{
 dest[ini] = src[cont];
-}
 return (dest);
 }
