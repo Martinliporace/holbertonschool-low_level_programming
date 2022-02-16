@@ -11,12 +11,11 @@
 char *_strncat(char *dest, char *src, int n)
 {
 int ini, cont;
-int max = n;
 ini = 0;
 cont = 0;
 while (dest[ini] != '\0')
 ini++;
-while ((dest[ini] = src[cont]) && (src[cont] <= max))
+while ((dest[ini] = src[cont]) && (src[cont]))
 {
 ini++;
 cont++;
