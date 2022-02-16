@@ -21,7 +21,7 @@ while ((dest[ini] = src[cont]) && (src[cont] <= max))
 ini++;
 cont++;
 }
-if (src[cont] < max)
+if (src[ini] < max)
 {
 dest[cont] = src[ini];
 }
