@@ -11,19 +11,9 @@
 char *_memcpy(char *dest, char *src, unsigned int n)
 
 {
-unsigned int ini, cont;
-ini = cont = 0;
-
-while (dest[ini] != '\0')
-ini++;
-while (cont < n && (dest[ini] = src[cont]))
-{
-ini++;
-cont++;
-}
-if (cont < n)
-
-dest[ini] = src[cont];
+unsigned int cont;
+for (cont = 0; cont < n; cont++)
+dest[cont] = src[cont];
 return (dest);
 
 }
