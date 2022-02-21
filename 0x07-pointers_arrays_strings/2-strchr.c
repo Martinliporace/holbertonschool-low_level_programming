@@ -14,14 +14,14 @@ char *_strchr(char *s, char c)
 int cont = 0;
 
 while (*(s + cont))
-  {
+{
 if (*(s + cont) == c)
 return (s + cont);
 cont++;
-  }
+}
 if (*(s + cont) == c)
-  {
-    return (s + cont);
-  }
+{
+return (s + cont);
+}
 return (0);
 }
