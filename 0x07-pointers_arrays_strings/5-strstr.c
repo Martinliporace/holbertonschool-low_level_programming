@@ -18,9 +18,12 @@ while (*(haystack + cont))
 if (*(haystack + cont) == *needle)
 return (haystack + cont);
 cont++;
-if (*(haystack + cont) == *needle)
+ }
+ if (*(haystack + cont) == *needle)
+   {
 return (haystack + cont);
-}
+   }
+   
 return (0);
 
 
