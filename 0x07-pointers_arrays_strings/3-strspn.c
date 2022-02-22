@@ -1,12 +1,12 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
-* _strstr - locates a substring in a string.
-* @haystack: coso
-* @needle: pum
+* _strspn - gets the length of a prefix substring.
+* @accept: coso
+* @s: pum
 *
-* Description: show a string
-* Return: pointer to the beginning of the located substring
+* Description: show a result
+* Return: number of bytes in the initial segment of s
 */
 
 unsigned int _strspn(char *s, char *accept)
