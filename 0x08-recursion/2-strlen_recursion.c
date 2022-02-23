@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* _print_rev_recursion - print reversetext
+* _strlen_recursion - print lenght of char
 * @s: string
 *
 * Description: show a string
