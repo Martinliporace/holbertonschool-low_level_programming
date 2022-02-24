@@ -3,8 +3,9 @@
 /**
 * _strlen_recursion - returns the length of a string.
 * @s: coso
-*
+* return: pum
 */
+
 int _strlen_recursion(char *s)
 {
 	if (*s == '\0')
@@ -18,7 +19,7 @@ int _strlen_recursion(char *s)
 * @s: coso
 * @n1: pum
 * @n2: ahre
-* 
+*
 */
 
 int comp(char *s, int n1, int n2)
