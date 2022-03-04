@@ -18,7 +18,7 @@ int *res;
 if (min > max)
 return (NULL);
 x = max - min + 1;
-dest = malloc(sizeof(int) * x);
+res = malloc(sizeof(int) * x);
 if (res)
 return (NULL);
 for (pos = 0; pos < x; pos++, min++)
