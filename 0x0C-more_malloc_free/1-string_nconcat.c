@@ -28,7 +28,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	while (s2[j] != '\0' && j <= n)
 		j++;
 
-	copia = malloc(sizeof(char) * (i + j));
+	copia = malloc(sizeof(char) * (i + j + 1));
 
 	if (copia == NULL)
 		return (NULL);
