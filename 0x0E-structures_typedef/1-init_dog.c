@@ -4,6 +4,10 @@
 /**
 * init_dog - that initialize a variable of type struct dog
 * Return: Always 0.
+* @name: name
+* @age: age
+* @owner: owner
+* @d: coso
 *
 **/
 
