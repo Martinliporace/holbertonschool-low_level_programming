@@ -3,8 +3,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * dog_t - Typedef for struct dog
- */
+* struct dog - Coso
+* @name: name
+* @age: age
+* @owner: owner
+*/
 
 struct dog
 {
