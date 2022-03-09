@@ -2,13 +2,15 @@
 #include <stdio.h>
 
 /**
- * main - check the code
- * @argc: coso
- * @argv: pum
- *
- * Return: Always 0.
- */
+* main - check the code
+* @argc: coso
+* @argv: pum
+*
+* Return: Always 0.
+*/
+
 int main(int argc, char *argv[])
+
 {
 	int a, b;
 	int (*operation)(int, int);
@@ -30,7 +32,7 @@ int main(int argc, char *argv[])
 	if (operation == NULL)
 	{
 		printf("Error\n");
-		exit(99);
+		exit(100);
 	}
 
 	a = atoi(argv[1]);
