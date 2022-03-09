@@ -2,9 +2,9 @@
 #include <stddef.h>
 
 /**
- * get_op_func - function that gives the function to use
- * @s: operator
- * Return: a pointer to the function
+ * get_op_func - coso
+ * @s: pum
+ * Return: ahre
  */
 int (*get_op_func(char *s))(int a, int b)
 {
