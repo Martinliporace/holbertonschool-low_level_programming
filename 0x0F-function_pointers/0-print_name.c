@@ -5,7 +5,7 @@
 * @name: coso
 * @f: pum
 *
-* Return: ahre
+* 
 */
 
 void print_name(char *name, void (*f)(char *name))
