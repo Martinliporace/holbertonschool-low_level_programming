@@ -5,7 +5,7 @@
 * get_op_func - selects the correct function
 * @s: array of elements
 *
-* Description: coso
+*
 * Return: pum
 */
 
