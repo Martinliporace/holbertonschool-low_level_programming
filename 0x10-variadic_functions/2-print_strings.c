@@ -3,7 +3,7 @@
 #include "variadic_functions.h"
 
 /**
-* print_numbers - coso
+* print_strings - coso
 * Return: pum
 * @separator: separator
 * @n: n
