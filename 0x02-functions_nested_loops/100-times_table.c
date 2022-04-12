@@ -18,38 +18,46 @@ int a, b, r;
 
 	if (n > 0 && n < 15)
 
+
 	for (a = 0; a <= n; a++)
 
 
-	{
+	{	_putchar(48);
 		for (b = 0; b <= n; b++)
 		{
 		r = (a * b);
-		if ((r / 100) > 0)
+		
+		_putchar(',');
+		_putchar(' ');
+		
+		if ((r / 100) > 0) /* r > 99 */
 		{
 		_putchar((r / 100) + '0');
 		_putchar(((r / 10) % 10) + '0');
-
+		_putchar((r % 10) + '0');
 		}
 
-		else if ((r / 10) > 0)
+		else if ((r / 10) > 0) /* r > 9 */
+
 		{
+		_putchar(' ');
 		_putchar((r / 10) + '0');
+		_putchar((r % 10) + '0');
 		}
-	else
-	{
-	_putchar(' ');
-	}
-	_putchar((r % 10) + '0');
+		
+		else /* r <= 9 */
 
-	if (b < n)
-	{
-	_putchar(',');
-	_putchar(' ');
-	}
+		{
+		_putchar(' ');
+		_putchar(' ');
+		_putchar(r + '0');
+		}
+	
+
+
 	}
 	_putchar('\n');
 	}
 
-	}
+}
 
