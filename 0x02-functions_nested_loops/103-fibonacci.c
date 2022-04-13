@@ -16,17 +16,23 @@ int main(void)
 
 long int a = 1;
 long int b = 2;
-long int r;
+long int r = 0;
 long int r2 = 0;
 
-	for (r = 0; r < 4000000; r = a + b)
+	while (r <= 4000000)
 	{
-	if ((r % 2) == 0)
-		r2 += r;
-
-
+	r = a + b;
 	a = b;
 	b = r;
+	if ((a % 2) == 0)
+		{
+		r2 += a;
+		}
+
+
+
+
+
 	}
 printf("%ld", r2);
 printf("\n");
