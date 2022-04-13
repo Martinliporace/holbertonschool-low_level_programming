@@ -3,13 +3,13 @@
 /**
 * main - prints the first 50 Fibonacci numbers, starting with 1 and 2,
 * followed by a new line.
-* 
-* 
+*
+*
 * Return: 0
 **/
 
 
-int main()
+int main(void)
 
 {
 
@@ -25,18 +25,16 @@ long int r;
 
 	{
 	r = a + b;
-	printf("%ld, ", r);
+	printf(", %ld", r);
 	a = b;
 	b = r;
 	}
 printf("\n");
 return (0);
 
-	
+
 
 
 
 
 }
-	
-
