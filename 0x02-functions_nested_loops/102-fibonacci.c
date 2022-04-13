@@ -19,7 +19,7 @@ long int b = 2;
 long int r;
 
 	printf("%ld, ", a);
-	printf("%ld, ", b);
+	printf("%ld", b);
 
 	for (cont = 0; cont < 48; cont++)
 
