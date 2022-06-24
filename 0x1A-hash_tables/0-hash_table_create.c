@@ -19,8 +19,10 @@ if (ht == NULL)
 
 ht->array = (hash_node_t **) malloc(size * sizeof(hash_node_t));
 if (ht->array == NULL)
+{
+	free(ht);
 	return (NULL);
-
+}
 memset(ht->array, 0, size);
 ht->size = size;
 return (ht);
