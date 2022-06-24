@@ -1,13 +1,18 @@
 #include "hash_tables.h"
 
 /**
- * main - check the code for
- *
- * Return: Always EXIT_SUCCESS.
- */
+* hash_table_create - create a hash table
+* @size: size of the array
+* Return: hash table
+*/
 
 hash_table_t *hash_table_create(unsigned long int size)
 
 {
-return(malloc(size));
+hash_table_t *ht = (malloc(size));
+if (size)
+	return (ht);
+else
+	return (NULL);
+
 }
