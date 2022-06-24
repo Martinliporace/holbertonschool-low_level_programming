@@ -17,7 +17,7 @@ ht = malloc(sizeof(hash_table_t));
 if (ht == NULL)
 	return (NULL);
 
-ht->array = (hash_node_t **) malloc(size * sizeof(hash_node_t));
+ht->array = (hash_node_t **) malloc(size * sizeof(hash_node_t*));
 if (ht->array == NULL)
 {
 	free(ht);
