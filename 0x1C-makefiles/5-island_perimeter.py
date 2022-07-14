@@ -5,13 +5,13 @@ def island_perimeter(grid):
 
     per = 0
 
-
     for x in range(len(grid)):
         for y in range(len(grid[x])):
             if grid[x][y] == 1:
                 tmp = 4 - check_for_land(grid, x, y)
                 per += tmp
     return(per)
+
 
 def check_for_land(grid, x, y):
     """check for neighbors squares"""
@@ -25,10 +25,9 @@ def check_for_land(grid, x, y):
     if up == 1:
         sum += 1
     if down == 1:
-        sum +=1
+        sum += 1
     if left == 1:
         sum += 1
     if right == 1:
-        sum +=1
-    return(sum) 
-        
+        sum += 1
+    return(sum)
