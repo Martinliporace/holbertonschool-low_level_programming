@@ -15,15 +15,13 @@ def island_perimeter(grid):
                     down = grid[x+1][y]
                     left = grid[x][y-1]
                     right = grid[x][y+1]
-                    if (x-1) == -1 or up == 1:
+                    if (x-1) == -1 or up == 0:
                         sum += 1
-                    if (x+1) == len(grid) or down == 1:
+                    if (x+1) == len(grid) or down == 0:
                         sum += 1
-                    if (y-1) == -1 or left == 1:
+                    if (y-1) == -1 or left == 0:
                         sum += 1
-                    if (y+1) == len(grid[x]) or right == 1:
+                    if (y+1) == len(grid[x]) or right == 0:
                         sum += 1
-
-                    tmp = 4 - sum
-                    per += tmp
+                    per += sum
     return(per)
